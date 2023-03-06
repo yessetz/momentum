@@ -1,6 +1,6 @@
 (function() {
     debugger;
-    let cityName = getLocaleStorage() == null  ? 'Minsk' : getLocaleStorage();
+    let cityName = getLocaleStorage() == null  ? 'New York' : getLocaleStorage();
     setLocaleStorage(cityName);
     document.querySelector('.city').value = cityName;
     getWeather(cityName);
